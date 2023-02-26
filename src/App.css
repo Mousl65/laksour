@@ -1,38 +1,324 @@
-.App {
+body{
+  margin: 05px;
+  background-color: rgb(242, 134, 140);
+  font-family: 'Times New Roman','patron shaima', Times, serif;
+}
+
+
+nav{
+ font-size: 20px;
+ font-weight: bold;
+}
+/*TEXTANIMER*/
+.title{
+  margin-left: -150px;
+  font-weight: normal;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family:Elephant;
+  margin-top: 20px;
+}
+.letter{
+  font-size: 02vw;
+  color:darkblue
+}
+.logo1 {
+  width: 200px;
+  height: 150px;
+  margin-top: 15px;
+  margin-left: -150px;
+  background-color: aqua;
+}
+img{
+  font-size: 80px;
+  }
+  @media screen and (max-width: 500px){
+    .logo1 img{
+       width: 120px;
+       height: 80px;
+       margin-left: 80px;
+    }
+    .letter{
+         font-size: 13px; 
+    }
+  }
+.hautpage{
+  border: 2px solid rgb(233, 238, 239);
+  border-radius: 10px;
+  margin-top: 67px;
+  background-color: aqua;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content:space-around;
+  align-content: center;
+}
+/*home*/
+.actualite{
+  border: 2px solid #628;
+  border-radius: 10px;
+  background-color: cadetblue;
+  margin-top: 05px;
+}
+.home {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.titre1{
+  width: 850px;
+  border: 2px solid rgb(2, 21, 2);
+  border-radius: 20px;
+  display: inline-block;
+  margin-top: 05px;
+  background-color: rgb(241, 170, 203);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.titre2{
+  width: 240px;
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: aliceblue;
+  margin-top: 10px;
+  margin-left: 43%;
+}
+.titre3 h4{
+  width: 400px;
+  height: 300px;
+  font-size:30px;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: antiquewhite;
+ }
+ .horaire{
+  width: 280px;
+  height: 45px;
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: aliceblue;
+  margin-top: 10px;
+  margin-left: 200px;
+  margin-bottom: 03px;
+ }
+.titre4{
+  height:590px;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.table{
+  width: 450px;
+}
+.titre{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  margin-left: -90px;
+}
+th{
+  font-size: 20px;
+  color: aqua;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width: 500px){
+  .titre1{
+    width: 460px;
   }
-  to {
-    transform: rotate(360deg);
+  .titre2{
+    margin-left: 100px;
+  }
+  .horaire {
+     margin-left: 80px;
+  }
+ 
+  .titre{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .titre3{
+    margin-left: 80px;
+    margin-top: 10px;
+  }
+  .table{
+    width: 400px;
+    margin-left: 60px;
+  }
+ }
+.historique{
+  width: 450px;
+  height: 46px;
+  margin-left: 550px;
+  margin-top : 10px;
+  font-size:20px;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: antiquewhite;
+}
+/*EVENEMENTQ*/
+.evenement{
+ margin-left: 06%;
+  margin-top: 12px;
+  border: 1px dashed rgb(9, 9, 234);
+  border-radius: 10PX;
+  width: 530px;
+  background-color: aqua;
+}
+@media screen and (max-width: 500px){
+  .evenement{
+    width: 420px;
+    margin-bottom: 10px;
+    margin-left: -10px;
+    text-align: center;
   }
 }
+.maoulid{
+  width: 400px;
+  height: auto;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: aqua;
+}
+.maoulid h3{
+  margin: 10px;
+ text-align: center;
+}
+.containerimage{
+  width: 400px;
+  min-height: 300px;
+  margin-left: -100px;
+  margin-top: 10px;
+}
+@media screen and (max-width: 500px){
+  .containerimage{
+    margin-left: 100px;
+  }
+}
+/*slide*/
+.slide-container{
+  width: 450px;
+  padding-top: 10px;
+  }
+  @media screen and (max-width: 500px){
+    .slide-container{
+      width: 400px;
+      margin-left: -60px;
+    }
+  }
+
+.slide-container img{
+    height: 300px;
+    width: 450px;
+    margin-bottom: 20px;
+ }  
+ @media screen and (max-width: 400px){
+  .slide-container img{
+    height: 100px;
+   
+    margin-left: 250px;
+    margin-bottom: 20px;
+ } 
+ img{
+  width: 450px;
+ } 
+  }
+  .contenueven{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .containereven{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    margin-top: 49px;
+  }
+  @media screen and (max-width: 500px){
+    .containereven{
+      display: flex;
+      flex-direction: column;
+      margin-left: 10px;
+    }
+  }
+  .container2{
+    text-align: center;
+    margin-top: 60px;
+  }
+  .culture{
+    text-align: center;
+    margin-top: 60px;
+  }
+  .sociale{
+    text-align: center;
+    margin-top: 60px;
+  }
+  .femmenfant{
+    text-align: center;
+    margin-top: 60px;
+  }
+ .communication{
+   text-align: center;
+   margin-top: 60px;
+ }
+
+   /*footer*/
+   .socialNetwork2 ul  {
+    list-style-type: none;
+    display: flex;
+    flex-direction:row;
+   justify-content:center;
+   margin-left: -300px;
+   margin-top: 20px;
+   }
+   .socialNetwork2 li a{
+     color: rgb(50, 13, 237);
+     font-size: 30px;
+     transform: scale(2,3 );
+     padding: 20px;
+ }
+  .footer{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+     background-color: rgb(210, 205, 188);
+     text-align: center;
+     border-radius: 20px;
+   }
+   
+  .colone2{
+    display: flex;
+    flex-direction:column;
+  }
+  
+   .colone {
+      margin-left: 0;
+      margin-bottom: 10px;
+      
+      
+   }
+   @media screen and (max-width: 500px){
+    .footer{
+      height: 258px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .socialNetwork2 {
+      margin-left: 250px;
+    }
+    .socialNetwork2 li a {
+      font-size: 20px;
+    }
+    .copyrigh h5{
+      font-size: 13px;
+    }
+    .colone  {
+     margin-bottom: -20px;
+    }
+    .colone title{
+      font-size: 10px;
+    }
+   }
+
+  .FloatingLabel{
+     width: 40px;
+     margin-top: 20px;
+   }
