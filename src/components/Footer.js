@@ -72,7 +72,7 @@ const Footer = () => {
                 </li>
               </ul>
             </div> 
-           <div className='copyrigh'>  <h5>© 2023 copyrigh : ASSOCIATION LAKSOUR </h5></div>
+           <div className='copyrigh'>  <h5>© 2023 copyright : ASSOCIATION LAKSOUR </h5></div>
      </div> 
  </div>
         

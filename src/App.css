@@ -185,6 +185,14 @@ th{
   margin-left: -100px;
   margin-top: 10px;
 }
+.maoulid22{
+  border: 1px dashed rgb(9, 9, 234);
+  border-radius: 10PX;
+  width: 530px;
+  background-color: aqua;
+  text-align: center;
+  margin-left: -40px;
+}
 @media screen and (max-width: 500px){
   .containerimage{
     margin-left: 100px;
@@ -237,6 +245,12 @@ th{
       flex-direction: column;
       margin-left: 10px;
     }
+  }
+
+  /* videos*/
+
+  .video{
+    margin-top: 58px;
   }
   .container2{
     text-align: center;

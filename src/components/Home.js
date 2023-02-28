@@ -9,7 +9,7 @@ function Home() {
        <Header />
    <div className='actualite'>
        
-      <div className='titre1'>  <h1>  أخبار و مستجدات جمعية لقصور للتنمية و التواصل</h1></div>
+      <div className='titre1'>  <h1>أخبار و مستجدات جمعية لقصور للتنمية و التضامن  </h1></div>
       <div className='titre2'>  <h3>عقد لقاء تواصلي شهر فبراير 2023</h3></div>
       <div className='horaire'> <h3>البرنامج الزمني  لهدا الاجتماع  </h3></div>
    <div className='titre'> 
