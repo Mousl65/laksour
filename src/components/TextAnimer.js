@@ -50,11 +50,9 @@ const TextAnimer = () => {
   
  
   return (
-    <div  className="App" >
-    <div>
-    
-    </div>
-    <h1 className="title" ref={titleRef}>
+   
+    <div className="texte">
+      <h1 className="title" ref={titleRef}>
     <span className="letter">A</span>
     <span className="letter">S</span>
     <span className="letter">S</span>

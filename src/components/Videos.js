@@ -9,8 +9,9 @@ import video5 from '../components/videos/video5.mp4';
 function Videos() {
  
   return (
-    <div className='video'>
-      <h1>Videos</h1>
+      <div> 
+        <div className='nom1'><h2>فديوهات بمناسبة الاحتفال بعيد المولد النبوي لسنة 2022</h2> </div>
+   <div className='video'>
       <ReactPlayer  
       url={video3} controls
             width='250px' height='150px'
@@ -31,7 +32,7 @@ function Videos() {
       url={video5} controls
             width='250px' height='150px'
       />
-     
+      </div> 
     </div>
   )
 }

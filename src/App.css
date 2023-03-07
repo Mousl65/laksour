@@ -3,8 +3,6 @@ body{
   background-color: rgb(242, 134, 140);
   font-family: 'Times New Roman','patron shaima', Times, serif;
 }
-
-
 nav{
  font-size: 20px;
  font-weight: bold;
@@ -22,25 +20,27 @@ nav{
   font-size: 02vw;
   color:darkblue
 }
-.logo1 {
+/*.logo1 {
   width: 200px;
   height: 150px;
   margin-top: 15px;
   margin-left: -150px;
-  background-color: aqua;
-}
+  background-color: rgb(255, 0, 98);
+}*/
 img{
-  font-size: 80px;
+  margin-left: -100px;
   }
   @media screen and (max-width: 500px){
-    .logo1 img{
-       width: 120px;
-       height: 80px;
-       margin-left: 80px;
+   
+   .logo1 img{
+      width: 150px;
+      margin-left: -35px;
     }
     .letter{
-         font-size: 13px; 
+         font-size: 15px; 
     }
+   
+   
   }
 .hautpage{
   border: 2px solid rgb(233, 238, 239);
@@ -126,6 +126,7 @@ th{
      margin-left: 80px;
   }
  
+ 
   .titre{
     display: flex;
     flex-direction: column;
@@ -150,6 +151,12 @@ th{
   border: 1px solid black;
   border-radius: 20px;
   background-color: antiquewhite;
+}
+
+@media screen and (max-width: 500px){
+  .historique {
+    margin-left:10px;
+  }
 }
 /*EVENEMENTQ*/
 .evenement{
@@ -197,6 +204,11 @@ th{
   .containerimage{
     margin-left: 100px;
   }
+  .maoulid22{
+    width: 400px;
+    margin-left: -60px;
+    margin-bottom: 10px;
+  }
 }
 /*slide*/
 .slide-container{
@@ -205,17 +217,18 @@ th{
   }
   @media screen and (max-width: 500px){
     .slide-container{
-      width: 400px;
-      margin-left: -60px;
+      width: 440px;
+      margin-left: -90px;
     }
   }
 
 .slide-container img{
     height: 300px;
-    width: 450px;
+    width: 440px;
+    margin-left: 0px;
     margin-bottom: 20px;
  }  
- @media screen and (max-width: 400px){
+ @media screen and (max-width: 500px){
   .slide-container img{
     height: 100px;
    
@@ -248,10 +261,38 @@ th{
   }
 
   /* videos*/
+  .nom1{
+    margin-top: 70px;
+    margin-left: 500px;
+    width: 620px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: antiquewhite;
+    
+  }
 
   .video{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     margin-top: 58px;
   }
+  @media screen and (max-width: 500px){
+    .video{
+      margin-top: -01px;
+      display: flex;
+      flex-direction: column;
+      justify-content:space-evenly;
+      align-content: center;
+    }
+    .nom1{
+      width: 450px;
+      margin-left: -00px;
+    }
+  }
+
+  /*commissions*/
   .container2{
     text-align: center;
     margin-top: 60px;
@@ -336,3 +377,54 @@ th{
      width: 40px;
      margin-top: 20px;
    }
+
+   /*contact*/
+   .formulaire{
+    width: 300px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(132, 237, 123);
+   }
+   form{
+    margin-top: 70px;
+    width:70%;
+   }
+   @media screen and (max-width: 500px){
+    form{
+      width: 700PX;
+    }
+   }
+ .autre{
+  width: 750px;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  }
+  .tuteur ,.sportpreferer {
+    width: 200px;
+    margin-left: 100px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(123, 218, 237);
+  }
+  .enfant{
+    width: 100px;
+    margin-left: 130px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(123, 218, 237);
+
+  }
+  .fichier h5{
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: -20px;
+    color: rgb(76, 0, 255);
+    font-weight: bold;
+  }
+  
